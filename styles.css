@@ -1,3 +1,25 @@
 body {
   font-family: metal lord;
 }
+.card-1 {
+  background-image: url(/img/1980-Iron-Maiden.jpg);
+}
+.card-2 {
+  background-image: url(/img/1980-running-free.jpg);
+}
+.card-3 {
+  background-image: url(/img/1980-sanctuary.jpg);
+}
+.card-4 {
+  background-image: url(/img/1980.woman-in-uniforms.jpg);
+}
+.card-5 {
+  background-image: url(/img/1981.killers.jpg);
+}
+
+.card {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
