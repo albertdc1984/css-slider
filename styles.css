@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  position: relative;
+  position: absolute;
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -46,4 +46,11 @@ body {
 .arrow:hover {
   width: 11%;
   filter: drop-shadow(5px 9px 9px #000);
+}
+#one:checked ~ .card-1,
+#two:checked ~ .card-2,
+#three:checked ~ .card-3,
+#four:checked ~ .card-4,
+#five:checked ~ .card-5 {
+  z-index: 2;
 }
