@@ -18,12 +18,32 @@ body {
 }
 
 .card {
+  position: relative;
   background-position: center;
   background-size: cover;
   height: 500px;
   width: 500px;
 }
-
-.arrow-icon {
+.arrow {
+  position: absolute;
   width: 10%;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+  filter: drop-shadow(1px 3px 3px #000);
+}
+.arrow-left {
+  left: 10px;
+}
+.arrow-right {
+  right: 10px;
+}
+.arrow-icon {
+  width: 100%;
+}
+
+.arrow:hover {
+  width: 11%;
+  filter: drop-shadow(5px 9px 9px #000);
 }
